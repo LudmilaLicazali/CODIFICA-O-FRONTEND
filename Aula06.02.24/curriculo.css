@@ -1,0 +1,39 @@
+html {
+    color: darkolivegreen;
+}
+
+body {
+    width: 600px;
+    margin: 15px 80px;
+    background-color: antiquewhite;
+    padding: 0 20px 20px 20px;
+    border: 2px solid olive;
+    border-radius: 15px;
+
+}
+
+.titulo {
+    margin: 0;
+    padding: 10px 0;
+    font-family: Alegreya SC;
+    color: darkolivegreen;
+}
+
+.dados {
+    font-family: Alegreya SC;
+
+}
+
+.extra {
+    font-size: 20px;
+}
+
+.info {
+    font-family: Alegreya SC;
+
+}
+
+.expe {
+    font-family: Alegreya SC;
+
+}
