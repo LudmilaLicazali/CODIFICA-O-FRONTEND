@@ -1,0 +1,21 @@
+h2{ color: aqua ;
+    font-size: 90px;
+}
+p{
+    color: orangered;
+    font-weight: bold;
+}
+#titulo{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.texto{
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.texto2{
+    color: red;
+    font-weight: bold;
+}

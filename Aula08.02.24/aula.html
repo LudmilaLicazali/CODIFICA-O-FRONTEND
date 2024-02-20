@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08022024</title>
+
+    // esse style é do exemplo lá de baixo do css interno
+    <!-- <style>
+        h2{ color: aqua ;
+            font-size: 90px;
+        }
+        p{
+            color: orangered;
+            font-weight: bold;
+        }
+        #titulo{
+            color: greenyellow;
+            font-weight: bold;
+        }
+
+        .texto{
+            color: rebeccapurple;
+            font-weight: bold;
+        }
+
+        .texto2{
+            color: red;
+            font-weight: bold;
+        }
+
+
+    </style> -->
+
+// exemplo css externo de linkagem do arquivo .css no arquivo html
+<link rel="stylesheet" href="Estilos/estilo.css">
+
+
+
+</head>
+<body>
+
+    <h1></h1>
+
+
+    <!-- // a tag <a></a>  e uma tag de ancoragem usada para adicionar links os atributos/ propriedades dessa tag é o href=""(onde coloca o link a ser acessado) pode ser usado o target=""(se for o _blank vai abrir o link em uma nova guia) esntre a tag de abertura e fechamento coloca o rotolo ou seja o texto que vai aparecer no lugar do link exemplo clique aqui-->
+
+    <a href="http://www.energisa.com.br" target="_blank"> Clique aqui para entra no site </a>
+
+    <img src="https://www.grupoenergisa.com.br/sites/default/files/styles/card_list_news/public/2023-08/Logo%20Rio%20Pomba%20Valley.jpg.webp?itok=By-orjGL" alt="Logo Rio Pomba Valley">
+
+    <!-- // os exemplos abaixo são com as imagens hospedada no computador ao inves do link o primeiro é coma aimagem solta no repositorio e o segundo é com a imagem dentro de uma pasta do repositorio-->
+    <img src="LogoRioPombaValley.jpg" alt="Logo Rio Pomba Valley">
+    <img src="imagens/riopombalogo2.jpg" alt="Logo Rio Pomba Valley">
+
+
+
+    <!-- // **** Para tranformar a imagem em um link é só juntar as tags <a></a> e a tag <img src="" alt=""> -->
+
+    <a href="http://www.energisa.com.br" target="_blank"><img src="https://www.grupoenergisa.com.br/sites/default/files/styles/card_list_news/public/2023-08/Logo%20Rio%20Pomba%20Valley.jpg.webp?itok=By-orjGL" alt="Logo Rio Pomba Valley"></a>
+
+    <!-- // a tag button como o proprio nome já dis adiciona um botão, para fazer ele ficar lincável use ele dentro da tag <a></a> -->
+
+    <button>Acesse</button>
+
+    <a href="http://www.energisa.com.br" target="_blank"><button>Acesse</button></a>
+
+
+
+    // Vamos para a estilizaçao usando o CSS
+   // existem 3 formas de implemetar o CSS 
+
+    1 -Inline -> aplicação na propria tag, não é a forma mais utilizada ma spode ser feito.
+
+    <h1 style="color: blueviolet; font-size: 100px;">Teste Inline</h1>
+    <h1 style="font-size: 100px;">Teste Inline 2</h1>
+
+    2 - Interno -> utiliza inserindo ele lá no head com a tag style
+    <!-- esse estyle deve ser colocado lá no head o h2 e p sendo os seletores que receberam os stilos: só o nome é seletor(se for mais de um separado por virgula);  #nomeid{} seletor de id; .nomedaclass{} é seletor de classe
+        <style>
+        h2{ color: aqua ;
+            font-size: 90px;
+        }
+
+         p{
+            color: orangered;
+            font-weight: bold;
+        }
+
+         #titulo{
+            color: greenyellow;
+            font-weight: bold;
+        }
+
+        .texto{
+            color: rebeccapurple;
+            font-weight: bold;
+        }
+
+         .texto2{
+            color: red;
+            font-weight: bold;
+        }
+    </style> -->
+
+    <h2>Teste Inteno 1</h2>
+    <p>Teste Interno 2</p>
+
+    <h2 id="titulo">Teste Inteno 1</h2>
+
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, animi.</p>
+
+    <p class="texto2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem debitis incidunt dignissimos tenetur, architecto facilis corrupti commodi delectus! Accusamus incidunt velit eligendi sint expedita minima eaque, voluptatibus illo sed consequatur.</p>
+
+    3 - Externo -> É crinado outra pasta e uma arquivo .css e coloque oque você colocou dentro da tag syle lá no head coloca no arquivo pontocss. E link este arquivo no head do arquivo html
+   
+    <h4>Teste Externo 1</h4>
+    <h5>Teste Externo 2</h5>
+
+// iframe é a tag para incluir video src é o link do video e frameborder é a ou você pode ir no video do youtube clicar em compartilhar e escolhaer a opção incorporar e copia o link e cola no codigo.
+
+    <iframe src="" frameborder="0"></iframe>
+
+    // abaixo inframe copiado do incorporar do youtube
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JleoAppaxi0?si=Zv4AG9yNBK0KZoq-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    //tag table para adicionar tabelas, nela você tem que informar tr(linha) td(colunas) no codigo abaixo interprete como uma tabela com uma linha e três colunas o atributo borde cria as linhas de bordea da tabela
+
+    <table border="3">
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
+        </tr>
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
+
+
+
