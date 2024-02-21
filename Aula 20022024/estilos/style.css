@@ -1,0 +1,45 @@
+.barraMenu {
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+    justify-content: space-between;
+    font-size: 40px;
+   color: deeppink;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li a{
+    padding: 10px;
+    border: 2px solid deepskyblue;
+    background-color: blueviolet;
+    display: block;
+}
+
+.divs{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    text-align: justify;
+}
+
+.div1{
+    width: 300px;
+    height: 360px;
+    border: 2px solid black;
+}
+
+.div2{
+    width: 300px;
+    height:360px;
+    border: 2px solid black;
+}
+
+.div3{
+    width: 300px;
+    height: 360px;
+    border: 2px solid black;
+}

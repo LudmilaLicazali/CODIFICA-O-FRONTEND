@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Html Flexbox</title>
+
+    <!-- // as fontes também pode ser colocadas via import diretamente na tag style veja abaixo:
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet"> -->
+
+    <style>
+
+          /* // as fontes também pode ser colocadas via import diretamente na tag style veja abaixo:
+
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap') */
+
+
+        /* // abaixo tem o modo via @font-face onde você baixa o arquivo da fonte no seu computador e  no url voc~e busca a pasta local onde está a fonte tipo quando faz com imagem veja abaixo: */
+
+
+        @font-face {
+            font-family: teste ;
+            src: url(fontes/Inconsolata/static/Inconsolata_Condensed-Bold.ttf);
+        }
+
+        
+       
+
+        .container1{
+            display: flex;
+            width: 800px;
+            justify-content:flex-start;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: aquamarine;
+        }
+
+
+        .container2 {
+            display: flex;
+            width: 800px;
+            justify-content:space-around;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: pink;
+        }
+        /* // essa linha aplica o mesmo espaçamento a todas as div */
+        .red{
+            flex:1;
+        }
+
+        .green{
+            flex:1;
+        }
+
+        .yellow{
+            flex:1;
+        }
+
+        .purple{
+            flex:1;
+        }
+
+
+
+
+        .red{
+            margin: auto;
+            width: auto;
+            background-color:red; 
+        }
+        .green{
+            margin: auto;
+            width: auto;
+            background-color:green;
+        }
+
+        .yellow{
+            margin: auto;
+            width: auto;
+            background-color:yellow;
+        }
+
+        .purple{
+            margin: auto;
+            width: auto;
+            background-color: rgb(203, 34, 203);
+        }
+
+        .container3{
+            display: flex;
+            width: 800px;
+            height: 50px;
+            justify-content: flex-end;
+            margin-bottom: 15px;
+            padding: 10px;
+            color: aliceblue;
+            background-color: blueviolet;
+        }
+
+        .container4{
+            display: flex;
+            width: 800px;
+            height: 65px;
+            background-color:brown;
+            justify-content: flex-start;
+            padding: 10px;
+          
+        }
+
+        .um{
+            background-color: orange;
+            margin: 10px 20px 10px 20px;       
+        }
+
+        .dois{
+            background-color: gray;
+            margin: 10px 20px 10px 20px;
+        }
+
+        .tres{
+            background-color: goldenrod;
+            margin: 10px 20px 10px 20px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <section class="container1"> 
+        Exercicio de teste
+    </section>
+
+
+    <section class="container2"> 
+        <div class="red">Exercicio 1</div>
+        <div class="green">Exercicio 2</div>
+        <div class="yellow">Exercicio 3</div>
+        <div class="purple">Exercicio 4</div>
+    </section> 
+
+    <section class="container3"> 
+        <div class="ordem">Ordene as opções</div>
+    </section> 
+
+    <section class="container4"> 
+        <div class="texto">Enumere as opções:</div>
+        <div class="um">opção 1</div>
+        <div class="dois">opção 2</div>
+        <div class="tres">opção 3</div>
+    </section> 
+
+</body>
+</html>
