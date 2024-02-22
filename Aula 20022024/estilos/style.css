@@ -1,44 +1,46 @@
-html{
-    background-color: #87ceeb;;
+html {
+    background-color: #87ceeb;
 }
+
 .barraMenu {
     display: flex;
     align-items: center;
     background-color: chartreuse;
     justify-content: space-between;
     font-size: 40px;
-   color: deeppink;
+    color: deeppink;
 }
-.logo{
+
+.logo {
     width: 150px;
 }
-.menu{
-    display: flex;
-    
 
+.menu {
+    display: flex;
 }
 
 .menu li {
     padding: 10px;
-    border-left:30px;
+    border-left: 30px;
 }
 
-.menu li a{
+.menu li a {
     padding: 10px;
     border: 2px solid deepskyblue;
     background-color: blueviolet;
     display: block;
 }
 
-
-.divs{
+.divs {
     display: flex;
     margin: 10px;
     gap: 10px;
     text-align: justify;
 }
 
-.div1, .div2, .div3{
+.div1,
+.div2,
+.div3 {
     display: flex;
     /* width: 300px;
     height: 360px; essas 2 linha de codigo é para excluir*/
@@ -49,76 +51,84 @@ html{
 /*foi agrupado as 3 divs em um único lugar já que elas tinha os mesmos valores de especificação 
 e também acresentado um .menu li{ com paddim e border left}*/
 
-divisao{
+divisao {
     width: 10px;
     height: 0px;
     border: 2px solid black;
 }
 
-a{
+a {
     color: currentColor;
-    text-decoration: none; /* o current color ele procura a ultima cor que foi usada anteriormente no pai nesse caso vai mudar a cor de acordo com a color do .barraMenu e o text decoration tira o sublinhado*/
+    text-decoration: none;
+    /* o current color ele procura a ultima cor que foi usada anteriormente no pai nesse caso vai mudar a cor de acordo com a color do .barraMenu e o text decoration tira o sublinhado*/
 }
 
-.imagem{
+.imagem {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 20px;
     background-color: #115b8f;
 }
 
-.imgdestaque{
+.imgdestaque {
     border: 1px solid #fff;
     padding: 10px;
     box-shadow: purple 3px 3px 3px;
-   flex-direction: row-reverse;
-    
+    flex-direction: row-reverse;
 }
 
-.destaque{
+.destaque {
     display: flex;
     width: 250px;
-   
 }
 
-.destaque2{
+.destaque2 {
     display: flex;
     width: 400px;
-    height:380px;
-   
-   
+    height: 380px;
 }
 
-
-
-.secoes{
+.secoes {
     display: flex;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 75px;
     justify-content: center;
     margin-bottom: 30px;
- 
-    
 }
 
-.rodape{
+.rodape {
     display: flex;
-    background-color:  #87ceeb;
+    background-color: #87ceeb;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#news{
-  display: flex;
-  height: 20px;
-   
-}
-
-.redes{
+.news { /* Tentar colocar essa news emcima do h2 de redes */
     display: flex;
-   
+    height: 15px;
+    justify-content: center;
 }
 
-#endereco{
+::placeholder {
+    font-size: 10px;
+}
 
+.rodape h2 {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.rodape img {
+    width: 40px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+.endereço {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
