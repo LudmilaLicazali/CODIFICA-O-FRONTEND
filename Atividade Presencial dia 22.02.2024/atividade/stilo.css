@@ -1,0 +1,137 @@
+.imagemSENAI{
+    display: flex;
+    height: 100px;
+    
+   
+}
+.nomeLoja{
+    font-size: 150px;
+    color: darkorchid;
+}
+.logo{
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    color: darkorchid;
+}
+
+h1{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    justify-content:center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    background-color: rgb(245, 146, 171);
+}
+.menu{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.menu li{
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.menu li a{
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+.divs{
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.divs div{
+    display: block;
+    flex: 0 0 calc(33.333% - 20px);
+    margin:10px;
+    
+}
+
+p{display: flex;
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+   
+}
+
+.divisao{
+    display: flex;
+    justify-content:center;
+    /* width: 850px; */
+    margin: 0px;
+}
+
+
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img{
+    display: flex;
+    border: 1px solid blueviolet;
+    box-shadow: crimson 2px 2px 3px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer, .footer-section, .endereco{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* .rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.footer-section {
+   display: flex;
+    /* margin: auto; */
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+/* .social{
+    display: flex;
+
+} */
+
+.teste{
+    display: block;
+    justify-content: space-between;
+    
+}
+
+.texto{
+    font-size: 25px;
+}
