@@ -1,0 +1,188 @@
+/* body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+
+    /* //o grid template abaixo facilita a manipulação das áreas apenas trocando o nome de posição já altera a ordem das áreas no projeto.// */
+
+    /* grid-template-areas: 
+    "header header header header"
+    "main main . sidebar" 
+    "footer footer footer footer";}
+
+.container{
+    display: grid;
+    border: 2px solid black;
+}
+
+header{
+    background-color: orangered;
+    grid-area: header;
+}
+
+main{
+    background-color:dodgerblue;
+    grid-area: main;
+}
+
+aside{
+    background-color:crimson ;
+    grid-area: sidebar;
+}
+
+footer{
+    background-color:forestgreen;
+    grid-area: footer;
+} 
+*/ 
+
+
+/* <!-- segundo exemplo de como usar o grid --> */
+
+/* body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 3fr 1fr;
+
+    grid-template-areas: 
+    "logo navbar"
+    "sidebar main"
+    "sidebar footer";
+}
+
+.logo{
+    background-color: lightcoral;
+    grid-area: logo;
+}
+
+nav{
+    background-color:blueviolet;
+    grid-area: navbar;
+}
+
+aside{
+    background-color:chartreuse;
+    grid-area: sidebar;
+    gap:25px;
+}
+
+main{
+    background-color:deepskyblue;
+    grid-area: main;
+}
+
+footer{
+    background-color:hotpink;
+    grid-area: footer;
+} */
+
+/* <!-- terceiro exemplo de como usar o grid --> */
+
+
+body{
+    display: grid;
+    border: 3px solid black;
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);
+    /* gap:10px; */
+}
+
+.item1{
+    background-color: aqua;
+}
+
+.item2{
+    background-color:blueviolet;
+}
+
+.item3{
+    background-color:chocolate;
+}
+
+.item4{
+    background-color:darkgreen;
+}
+
+.item5{
+    background-color:darkcyan;
+}
+
+.item6{
+    background-color: aqua;
+}
+
+.item7{
+    background-color:chartreuse;
+}
+
+.item8{
+    background-color:gold ;
+}
+
+.item9{
+    background-color:olive;
+}
+
+
+
+
+
+
+
+
+
+/* voltar com essa parte lá par o inicio do codigo html
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <title>Revisão Atividade6</title>
+      Esta é outra forma de executar a atividade 6, usando a tecnica de nomear as areas.
+</head>
+<body>
+     <header>header</header>
+     <main>main</main>
+     <aside>sidebar</aside>
+     <footer>footer</footer>
+</body>
+</html> -->
+
+
+    
+<!-- //segundo exemplo de como usar o grid// -->
+
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="logo"><img src="" alt=""></div>
+
+    <nav>navbar</nav>
+
+    <aside>sidebar</aside>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptate maiores quaerat, accusamus dolor?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptate maiores quaerat, accusamus dolor</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptate maiores quaerat.</p>
+    </main>
+
+    <footer>rodapé</footer>
+
+</body>
+</html> -->
+
+<!-- terceiro exemplo de como usar o grid --> */
