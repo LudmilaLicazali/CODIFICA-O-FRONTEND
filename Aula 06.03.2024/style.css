@@ -1,0 +1,45 @@
+/* body{
+    background-color:darkslategrey;
+} */
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    
+}
+.menuSup{
+display: flex;
+justify-content: space-between;
+margin-bottom: 15px;
+background-color: aliceblue;
+padding: 8px;
+color: rgb(37, 117, 236);
+border-top: 2px solid rgb(37, 117, 236);
+}
+
+main{
+    max-width: 1200px;
+    margin: 0px;
+    padding: 20px;
+
+
+    display: grid;
+    /* grid-template-columns: repeat(3, 2fr) / repeat(4, 1fr); */
+    grid-template-columns: 300px 4fr;
+    grid-template-rows: 100px fr 1fr;
+    grid-template-areas: 
+    "t1 t2 t3"
+    "t4 . t5"
+    "t4 . t6"
+    "t4 . ."; 
+}
+
+header{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.t{
+    border: 2px solid black;
+}
