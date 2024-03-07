@@ -1,0 +1,66 @@
+/* // CONTINUAÇÃO DA AULA DE RESPONSABILIDADE NO DIA 06.03.2024 - MEDIAS QUERES// */
+
+/* body{
+    background-color:aquamarine ;
+}
+
+@media (min-width: 1000px){
+    body{
+        background-color: blue;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:1000px){
+    body{
+        background-color: yellow;
+    }
+}
+
+@media (min-width:300px) and (max-width:600px){
+    body{
+        background-color: pink;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: blueviolet;
+    }
+
+    h1{
+        font-size: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: brown;
+    }
+}
+
+@media(min-width:1px) and (max-width:300px){
+    body{
+        background-color:darkcyan;
+    }
+} */
+
+
+/* // estilização da tabela// */
+
+table, td{
+    border: 2px solid black;
+}
+
+@media only print{
+    h1{
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    table, dt{
+        border: 5px solid pink;
+    };
+}
+
+@media only screen{
+    h1{
+        display: none;
+    }
+}
