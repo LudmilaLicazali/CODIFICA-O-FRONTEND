@@ -1,0 +1,124 @@
+body{
+    background-color:rgb(32, 47, 70);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.menuSup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    padding: 8px;
+    font-size: 1em;
+    color: rgb(21, 116, 204);
+    border-top: 5px solid rgb(65, 226, 226);
+  
+ }
+
+ a, .leia{
+    text-decoration: none;
+    margin-left: 9px;
+    margin-top: 15px;
+    color:rgb(57, 172, 218);
+
+ }
+
+
+
+.leia{
+    text-decoration: none;
+    margin-left: 9px;
+    margin-top: 15px;
+    color: red;
+ 
+ }
+
+ section{
+    
+    background-color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+
+h2{
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 9px;
+}
+
+p{
+    margin-left: 9px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0px;
+    padding: 20px;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto; 
+}
+
+.t{
+    border-top: 5px solid rgb(65, 226, 226); 
+    font-size:20px;
+}
+
+.t, .t2{
+max-height: 150%;
+
+}
+
+
+.imgCircle{
+    border-radius: 50%;
+    max-width: 60%;
+
+}
+
+.t4 .leia{
+    background-color: red;
+    color: white;
+    margin-inline: unset;  
+    height: 45px;
+}
+
+.t, .t4{
+     display: flex;
+    flex-direction: column;
+}
+
+.imgQuad{
+    max-width: 70%;
+    padding: 9px;
+    margin-top: 8px;
+}
+
+.t5 h2{
+    background-color:rgb(57, 172, 218);
+    margin-inline: unset;
+    height: 70px;
+  
+    
+}
+
+
+.t2{
+    display: flex;
+    max-height: 250%;
+}
