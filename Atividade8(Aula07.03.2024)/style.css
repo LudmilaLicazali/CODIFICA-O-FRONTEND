@@ -48,6 +48,10 @@ aside{
     font-size: 20px;
 }
 
+aside a{
+    color: white;
+    font-size: 20px;
+}
 
 a{
     display: block;
@@ -70,6 +74,44 @@ footer{
         display: grid;
         grid-template-columns: 200px 1fr 200px;
         grid-template-rows: auto 1fr auto;
+    }     
+}
+
+@media(min-width: 768px){
+    .img{
+       width: 30%;
+    }  
+}
+
+@media(min-width: 768px){
+    nav a:hover{
+        color:greenyellow;
+    } 
+
+    aside a:hover{
+        color:dodgerblue;
+    }  
+}
+
+@media(min-width: 767px){
+    nav a{
+        display: inline-block;
+        margin-right: 40px;
     }    
     
+    nav a:hover{
+        color:greenyellow;
+    }  
+}
+
+@media(min-width: 767px){
+    aside a{
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 15px;
+    }    
+    
+    aside a:hover{
+        color:dodgerblue;
+    }  
 }
