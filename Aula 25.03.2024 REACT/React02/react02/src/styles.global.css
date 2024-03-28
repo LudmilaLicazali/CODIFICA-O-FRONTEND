@@ -1,0 +1,6 @@
+/* o css não precisa de comando export só importar ele lá no destino */
+body{
+    font-size: 24px;
+    background-color: blueviolet;
+    font-family: 'roboto', sans-serif;
+}

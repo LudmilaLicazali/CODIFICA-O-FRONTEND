@@ -1,0 +1,10 @@
+.header{
+    color: greenyellow;
+    font-size: 40px;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+    background-color: plum;
+    height: 65px;
+}
