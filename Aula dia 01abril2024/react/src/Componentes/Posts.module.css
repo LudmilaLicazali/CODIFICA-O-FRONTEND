@@ -124,3 +124,7 @@
 .commentesForm button:hover {
     background-color: var(--green-300);
 }
+
+.commentesList{
+    margin-top: 2rem;
+}
