@@ -1,0 +1,126 @@
+.posts{
+    background: var(--gray-800);
+    border-radius: 8px;
+    padding: 2.5rem;
+}
+
+.posts + .posts { /*dessa forma ele vai criar dois do mesmo e vai deixar um margin/espaço entre eles*/
+    margin-top: 2rem;
+}
+
+.content {
+    line-height: 1.6;
+    color: var(--gray-300);
+    margin-top: 1.5rem;
+}
+
+.content p {
+    margin-top: 1rem;
+}
+
+.content a {
+    font-weight: bold;
+    color: var(--green-500);
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: var(--green-300);
+}
+
+.posts > header {
+    /* estilização que joga o publicado ha 1 hora para o lado */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts > header time {
+    
+    font-size: 0.875rem;
+    color: var(--gray-400);
+
+}
+
+.author {
+   
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+    
+}
+
+.authorInfo span {
+    display: block;
+    line-height: 1.6;
+    color:  var(--gray-400);
+    font-size: 0.875rem;
+}
+
+/* agora vem a estilização da parte de deixo seu comentario */
+.commentesForm {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-600);
+
+}
+
+.commentesForm strong{
+    line-height: 1.6;
+    color:  var(--gray-100);
+}
+
+.commentesForm textarea {
+    width: 100%; /* width de 10% praa ocupar toda a area do post*/
+    background-color: var(--gray-900);
+    border: 0;
+    resize: none; /*desativa a opção de redimencionar evita do usuario redefinir o tamanhoa area de texto*/
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+
+.commentesForm button {
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: var(--green-500);
+    color: var(--Withe);
+    font: bold;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.3s;
+
+}
+
+/* propriedade para ocultar o botão comentar e só aparecer quando clicar na textarea */
+
+.commentesForm div {
+    visibility: hidden; /*esconde o botão*/
+    max-height: 0; /*vai tirar o espaço que será deixado pela falta do botão*/
+}
+
+
+/* essa propriedade vai deixar o botão visivel quandoo foco for a textarea */
+.commentesForm:focus-within div{
+    visibility: visible;
+    max-height: none;
+   
+}
+
+.commentesForm button:hover {
+    background-color: var(--green-300);
+}
