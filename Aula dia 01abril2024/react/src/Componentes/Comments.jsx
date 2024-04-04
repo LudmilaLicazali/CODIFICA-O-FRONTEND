@@ -31,8 +31,8 @@ function Comments (){
 
                     <footer>
                         <button>
-                            <ThumbsUp /> Gostei/Aplaudir <span>20</span>
-                              {/*icone de lixeira para excluir comentário*/}
+                            <ThumbsUp /> {/*icone de lixeira para excluir comentário*/} Gostei/Aplaudir <span>20</span> {/*o codigo do span pode ria ser assim: // html example <span>&#8226;</span> ao inves de fazer a bolinha antes do 20 lá no css*/}
+                              
                         </button>
                     </footer>
 
