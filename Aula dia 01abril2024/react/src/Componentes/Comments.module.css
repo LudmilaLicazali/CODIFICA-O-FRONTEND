@@ -34,7 +34,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
+
 
 /* .authorAndTime {
     display: flex;
@@ -51,6 +53,7 @@
     display: block;
     font-size: 0.75rem;
     line-height: 1.6;
+    color: var(--gray-400);
 }
 
 .commentsContent header button{
@@ -81,17 +84,26 @@
     display: flex;
     align-items: center;
     border-radius: 2px;
-    gap:0.5rem; /*vai dar o espaçamento entr o icone de lique o tesxto gostei/apludir e o numero 20*/
+    gap:0.5rem; /*vai dar o espaçamento entr o icone de lique o texto gostei/apludir e o numero 20 se for com esse gap o camando seguinte usando svg deve ser desativado*/
 
-}
+} 
 
-.commentsBox footer button svg{ /*svg se refere ao icone ou seja somente entre o icone e o texto curtir esse metodo pode substituir o gap acima */
+  /* .commentsBox footer button svg{
     margin-right: 0.5rem;
- 
-}
+     //svg se refere ao icone ou seja somente entre o icone e o texto curtir esse metodo pode substituir o gap acima// 
+}*/
 
 
 .commentsBox footer button:hover {
     color: var(--green-300);
 }
 
+/* o proximo codigo serve para colocar a bolimnha antes do 20 o ::before vai acionar antes do elento do span que é 20 ser acionado*/
+
+/* também pode ser colado o icone de ponto lá no texto dentro do span codigo pricipal de coments o Comments.jsx */
+
+.comments footer button span::before {
+  content: "\2022";
+  padding: 0 0.25rem;
+ 
+}

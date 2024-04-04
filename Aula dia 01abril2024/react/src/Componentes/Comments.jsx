@@ -14,11 +14,13 @@ function Comments (){
                             <div className={styles.authorAndTime}>
                                 <strong>Developer 1</strong>
                                 <time title='02/04/2024' dateTime='2024-04-02'>Publicado há 30 minutos</time>
-                                <div>
-                                    <button title='Exclir comentário'>
-                                        <Trash />  {/*icone de lixeira para excluir comentário*/}
-                                    </button>
-                                </div>
+                               
+                            </div>
+
+                            <div>
+                                <button title='Exclir comentário'>
+                                    <Trash />  {/*icone de lixeira para excluir comentário*/}
+                                </button>
                             </div>
 
                         </header>
