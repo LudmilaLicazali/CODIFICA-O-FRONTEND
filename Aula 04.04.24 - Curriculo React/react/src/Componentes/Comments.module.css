@@ -1,0 +1,109 @@
+.comments {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+/* testar uma das duas  opções */
+.comments img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+/* .comments > img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+} */
+
+/* testar uma das  duas  opções */
+
+.commentsBox {
+    flex: 1;
+}
+
+.commentsContent {
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.commentsContent header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+/* .authorAndTime {
+    display: flex;
+    flex-direction: column;
+} */
+
+.authorAndTime strong {
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.authorAndTime time{
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--gray-400);
+}
+
+.commentsContent header button{
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+}
+
+.commentsContent header button:hover {
+    color: var(--red-500);
+}
+
+.commentsContent p {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.commentsBox footer {
+    margin-top: 1rem;
+}
+
+.commentsBox footer button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    gap:0.5rem; /*vai dar o espaçamento entr o icone de lique o texto gostei/apludir e o numero 20 se for com esse gap o camando seguinte usando svg deve ser desativado*/
+
+} 
+
+  /* .commentsBox footer button svg{
+    margin-right: 0.5rem;
+     //svg se refere ao icone ou seja somente entre o icone e o texto curtir esse metodo pode substituir o gap acima// 
+}*/
+
+
+.commentsBox footer button:hover {
+    color: var(--green-300);
+}
+
+/* o proximo codigo serve para colocar a bolimnha antes do 20 o ::before vai acionar antes do elento do span que é 20 ser acionado*/
+
+/* também pode ser colado o icone de ponto lá no texto dentro do span codigo pricipal de coments o Comments.jsx */
+
+.comments footer button span::before {
+  content: "\2022";
+  padding: 0 0.25rem;
+ 
+}
