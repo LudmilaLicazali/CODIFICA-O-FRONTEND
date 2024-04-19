@@ -1,0 +1,79 @@
+.header {
+    background-color: #000000da;
+    border-bottom: 2px solid #f44336;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.header span {
+    font-size: 2rem;
+    color: #b71c1c;
+    font-weight: 500;
+}
+
+
+/* config dropdown
+.header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #f051d5;
+    padding-inline: 0.5rem;
+} */
+
+.header a {
+    text-decoration: none;
+    color: #ffff;
+   padding-inline: 1rem;
+   font-size: 18px;
+
+}
+
+.header a:hover {
+   
+color:#b71c1c;
+font-weight: bold;
+
+}
+
+.header img{
+    max-width: 60px;
+    max-height: 50px;
+}
+
+
+/* .dropdown-menu{
+    display: flex;
+
+} */
+
+
+/* 
+
+
+.header form button{
+    border: 1px solid red;
+    color: red;
+    
+}
+
+.header form input{
+    border: 1px solid red;
+    background: black; 
+}
+
+.header input::placeholder{color: rgb(170, 28, 28);} */
+
+
+/* // conferir se esse é o efeito de aumentar a imagem com o passar do mause
+.img_pessoa:hover {
+    transform: scale(1.8);
+    z-index: 1;
+} 
+*/

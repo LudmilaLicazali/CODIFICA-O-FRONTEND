@@ -1,0 +1,39 @@
+.drama {
+    display: flex;
+    align-items: center;
+    margin-top: none; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.drama img{
+    height: 350px;
+    width:260px;
+    object-fit: cover;
+  }
+
+  .drama  p {
+    height: 150px;
+    margin: 1rem;
+    object-fit: cover;
+    text-align: justify;
+    /*delimitar a quantidade caracteres e o comportamento */
+    max-width:70ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+ 
+  } 
+
+  .drama  div{
+    padding-block: 0.5rem;
+    border-radius: 2rem;
+    /* background-color: rgb(52, 67, 97); */
+
+ 
+  }
+  .drama h5{
+    margin-top: 1rem;
+    text-decoration: underline;
+  }

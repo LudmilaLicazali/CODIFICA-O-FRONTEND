@@ -1,0 +1,23 @@
+.container {
+    width: 100%; /*100% de largura de tela*/
+    height:auto;
+    background-color: #191919;
+    color: white;
+    padding-block: 1rem;
+    text-align: center;
+}
+
+.container h1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left:1rem;
+}
+
+.container h3{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:0;
+    margin-left:1rem;
+}

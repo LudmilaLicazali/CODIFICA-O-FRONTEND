@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+}
+
+
+.card img {
+    width: 215px;
+    height: 315px;
+    border-radius: 8px;
+    border-color: red;
+   
+}
+/* buscar o efeito de zoom */

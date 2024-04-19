@@ -1,0 +1,42 @@
+.romance{
+    display: flex;
+    align-items: center;
+    margin-top: none; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.romance img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  
+  .romance p {
+    height: 95px;
+    margin: 2rem;
+    object-fit: cover;
+    text-align: justify;
+     /*delimitar a quantidade caracteres e o comportamento */
+     max-width:70ch;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: pre-wrap;
+  } 
+
+  .romance div{
+    padding-block: 1rem;
+    border-radius: 2rem;
+    /* background-color: rgb(134, 123, 122); */
+    /* background-image: url(public\imagens\logo1morevermelha.jpg); */
+   
+ 
+  }
+
+.romance h5{
+    margin-top: 1rem;
+    text-decoration: underline;
+  }
+

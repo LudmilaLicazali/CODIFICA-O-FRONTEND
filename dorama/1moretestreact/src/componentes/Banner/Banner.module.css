@@ -1,0 +1,9 @@
+.banner {
+    width: 100vw; /*tamanho padrão da imagens do banner 1920x347px*/
+    height: 347px;
+    /* background-image: url('/public/imagens/banner-cacadores.png'); */ /* esse backgroun-image vai ser passado lá no Index.jsx do banrer no style in line*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:100px;
+}

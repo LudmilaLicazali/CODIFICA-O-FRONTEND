@@ -1,0 +1,19 @@
+:root{
+    --MediumVioletRed: #C71585;
+    --MediumPurple:#9370DB;
+    --Indigo: #4B0082;
+    --MediumSlateBlue :#7B68EE;
+    --SlateBlue: #6A5ACD;
+    --LightSteelBlue: #B0C4DE;
+    --DarkSlateBlue: #483D8B;
+    --MidnightBlue: #191970;
+    --black: #000000;
+    --DarkRed: #8B0000;
+    --withe: #ffff;
+
+}
+
+h2{
+    color: var(--MediumPurple);
+}
+

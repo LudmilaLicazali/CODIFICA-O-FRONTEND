@@ -1,0 +1,38 @@
+.acao {
+    display: flex;
+    align-items: center;
+    margin-top: none; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.acao img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .acao p {
+    height: 140px;
+    margin: 2rem;
+    object-fit: cover;
+    text-align: justify;
+     /*delimitar a quantidade caracteres e o comportamento */
+    max-width:70ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+  } 
+
+  .acao div{
+    padding-block: 1rem;
+    border-radius: 2rem;
+    /* background-color: rgb(97, 57, 50); */
+ 
+  }
+
+  .acao h5{
+    margin-top: 1rem;
+    text-decoration: underline;
+  }

@@ -1,0 +1,9 @@
+.favoritos {
+    padding-top: 88px; /*68px do header+ 16px de respiro*/
+}
+
+.favoritos h2{
+    font-size: 2.5rem;
+    
+}
+
